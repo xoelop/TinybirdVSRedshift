@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pylint = "*"
+ipykernel = "*"
+autopep8 = "*"
+jupyter-contrib-nbextensions = "*"
+pandas = "*"
+requests = "*"
+ipython-sql = "*"
+matplotlib = "*"
+plotly = "*"
+cufflinks = "*"
+psycopg2 = "*"
+boto3 = "*"
+tqdm = "*"
+
+[requires]
+python_version = "3.7"
